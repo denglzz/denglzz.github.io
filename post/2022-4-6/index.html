@@ -1,0 +1,200 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>2022-4-6 | integererer</title>
+<link rel="shortcut icon" href="https:// denglzz.github.io/favicon.ico?v=1666182657130">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https:// denglzz.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="2022-4-6 | integererer - Atom Feed" href="https:// denglzz.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="祝自己生日快乐🤖
+祝自己一帆风顺
+祝自己好好生活
+祝自己学业有成
+祝自己收获爱情......
+全是套话
+妈的究竟哪个才是真实的
+人在喝酒只后总是感性又夹杂着一丝丝理性
+但是此刻的我好像感性占据了绝对位置
+我幻想了好多场景
+幻想了好多人
+如..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https:// denglzz.github.io">
+  <img class="avatar" src="https:// denglzz.github.io/images/avatar.png?v=1666182657130" alt="">
+  </a>
+  <h1 class="site-title">
+    integererer
+  </h1>
+  <p class="site-description">
+    
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+      
+        <a href="https://blog.denglinzhe.com/post/-" class="menu">
+          :-)
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              2022-4-6
+            </h2>
+            <div class="post-info">
+              <span>
+                2022-04-05
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>祝自己生日快乐🤖<br>
+祝自己一帆风顺<br>
+祝自己好好生活<br>
+祝自己学业有成<br>
+祝自己收获爱情......<br>
+全是套话<br>
+妈的究竟哪个才是真实的<br>
+人在喝酒只后总是感性又夹杂着一丝丝理性<br>
+但是此刻的我好像感性占据了绝对位置<br>
+我幻想了好多场景<br>
+幻想了好多人<br>
+如此梦幻般的场景好像似曾相识<br>
+但是我是个成年人<br>
+我要做正确的事情<br>
+我想过<br>
+也想过<br>
+曾经想过<br>
+好<br>
+喝酒...</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https:// denglzz.github.io/post/2022-3-21/">
+              <h3 class="post-title">
+                2022-3-21
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  
+  <a class="rss" href="https:// denglzz.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
